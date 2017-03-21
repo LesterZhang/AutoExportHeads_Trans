@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dbb7170d-abe6-4d0c-b926-5105a8c52293}</UniqueIdentifier>
+      <Extensions>h;inl</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{416d0d2f-8e38-46b4-b43b-f14c9c0a26cc}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{82d64966-4e99-4642-9195-93a12ed55fe1}</UniqueIdentifier>
+      <Extensions>htm</Extensions>
+    </Filter>
+    <Filter Include="Copyright">
+      <UniqueIdentifier>{54558dfc-f911-4b74-8373-3d0b1e509ad8}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdifm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoExportHeads_Trans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoExportHeads_Trans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AutoExportHeads_Trans.def" />
+    <None Include="AutoExportHeads_Trans.htm">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="..\AutoExportHeads_Trans.docx">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AutoExportHeads_Trans.txt">
+      <Filter>Copyright</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
